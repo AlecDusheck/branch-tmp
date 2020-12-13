@@ -36,6 +36,7 @@ const GET_IP = /on (.*?) /;
         } catch (e) {
             // Oops... whatever
             console.log('Failed scanning ' + range);
+            console.log(e);
         }
         console.log('Finished complete scan.');
     }
